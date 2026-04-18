@@ -1,17 +1,55 @@
-# app_flutter_frutas
+# 🍓 Fruit Explorer & Mixer App
 
-A new Flutter project.
+## 📌 Descripción
 
-## Getting Started
+Fruit Explorer & Mixer es una aplicación desarrollada en Flutter que permite explorar información sobre frutas y calcular valores nutricionales de combinaciones personalizadas.
 
-This project is a starting point for a Flutter application.
+La app obtiene datos desde APIs externas y ofrece una interfaz interactiva para mejorar la experiencia del usuario.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## ⚙️ Tecnologías Utilizadas
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* Flutter
+* Dart
+* API Fruityvice
+* API Pexels
+* Git y GitHub
+
+---
+
+## ✨ Funcionalidades
+
+* Visualización de catálogo de frutas
+* Búsqueda y filtrado en tiempo real
+* Detalles nutricionales por fruta
+* Carga dinámica de imágenes
+* Creación de cócteles de frutas
+* Cálculo automático de valores nutricionales
+
+---
+
+## ▶️ Ejecución del Proyecto
+
+Para ejecutar el proyecto, usar el siguiente comando:
+
+```bash
+flutter run -d chrome --web-browser-flag "--disable-web-security"
+```
+
+---
+
+## 📁 Estructura General
+
+El proyecto está organizado en módulos que incluyen:
+
+* Modelos de datos
+* Pantallas principales
+* Componentes reutilizables
+* Lógica de negocio
+
+---
+
+## 👤 Autor
+
+Proyecto académico desarrollado como parte de la materia de Desarrollo de Software Empresarial.
