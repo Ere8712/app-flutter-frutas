@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(/Users/stefanow/DevJaeger/flutter/bin/flutter create:*)",
+      "Bash(/Users/stefanow/DevJaeger/flutter/bin/flutter run:*)",
+      "Bash(/Users/stefanow/DevJaeger/flutter/bin/flutter analyze:*)",
+      "Bash(/Users/stefanow/DevJaeger/flutter/bin/flutter pub:*)"
+    ]
+  }
+}

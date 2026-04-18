@@ -1,0 +1,33 @@
+name: app_flutter_frutas
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.11.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Peticiones de red
+  http: ^1.2.0
+  
+  # Carga de imágenes con caché
+  cached_network_image: ^3.3.1
+  
+  # Para los gráficos nutricionales (opcional pero recomendado)
+  fl_chart: ^0.65.0
+  
+  # Gestor de estado (Ejemplo usando Provider, el más amigable para empezar)
+  provider: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
